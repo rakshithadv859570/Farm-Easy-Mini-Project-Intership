@@ -4,6 +4,8 @@
 /* $itemGrow: 1.2;
 $duration: 250ms; */
 
+
+
 html {
 	scroll-behavior: smooth;
   }
@@ -117,6 +119,21 @@ html {
 	font-weight:600;
 	font-size:16px;
 }
+.navbar-nav .nav-item .nav-link {
+    color: black;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+    color: #28a745; /* Change to your preferred hover color */
+}
+
+.navbar-nav .nav-item .nav-link.active {
+    color: #28a745; /* Change to your preferred active link color */
+}
+
+
 
 
 #Slider
